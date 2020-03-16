@@ -4,7 +4,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: snapscheduler
-  namespace: backube-snapscheduler
+  namespace: default
 spec:
   replicas: 2
   selector:

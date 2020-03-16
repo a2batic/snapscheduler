@@ -5,6 +5,7 @@ kind: ClusterRole
 metadata:
   creationTimestamp: null
   name: snapscheduler
+  namespace: default
 rules:
 - apiGroups:
   - ""
